@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const GenreDropdown = ({ genres, onchange }) => {
     // The genres prop is an array of genre strings passed into the Component
@@ -7,7 +7,7 @@ const GenreDropdown = ({ genres, onchange }) => {
     // selected option in the dropdown changes. It receives the value of the selected genre.
     return (
         <div className="d-flex justify-content-center mb-4">
-            <select className="form-select w-auto me-3" onchange={(e) => onchange(e.target.value)}>
+            <select className="form-select w-auto me-3" onChange={(e) => onchange(e.target.value)}>
                 {/* The <select> element is used to create the dropdown. 
                 - form-select - to style the dropdown according to Bootstrap's theme
                 - w-auto - limits the width of the dropdown to its content
