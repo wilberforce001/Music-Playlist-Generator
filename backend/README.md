@@ -18,3 +18,16 @@
 ### Installation of required dependencies
 - python -m venv env: create the virtual environment
 - source env/Scripts/activate: activate the virtual environment
+- pip install flask: for building we applications and APIs in Python
+- pip install python-dotenv: used to load environment variables from a .env file into the application.
+- pip install flask-cors: enable CORS in the backend
+- pip install openai==0.28: install version 0.28 (previous version of OpenAI)
+- pip install --upgrade openai: Upgrade openai to the latest version
+- pip show openai: verify installation
+- pip install httpx: install httpx
+
+
+
+
+
+
